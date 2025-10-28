@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "End-to-end-MLOPs-Insurance-Buying-Prediction-Project"
+authors = [{name = "Tarique Anwar", email = "tarique.dts@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
